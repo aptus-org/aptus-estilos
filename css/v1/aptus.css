@@ -72,7 +72,7 @@
 }
 
 .btn-info-aptus:disabled {
-    background-color: var(--primary-blue-background-10);
+    background-color: var(--primary-blue-disabled);
 }
 
 .btn-success-aptus {
@@ -85,7 +85,7 @@
 }
 
 .btn-success-aptus:disabled {
-    background-color: var(--primary-green-background-10);
+    background-color: var(--primary-green-disabled);
 }
 
 .btn-danger-aptus {
@@ -98,7 +98,7 @@
 }
 
 .btn-danger-aptus:disabled {
-    background-color: var(--red-aptus-lighter);
+    background-color: var(--accent-error-disabled);
 }
 
 .section-padding {
@@ -110,4 +110,24 @@
     padding: 0;
     margin: 0;
     text-align: left;
+}
+
+.shaded-container-l {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 .2rem .2rem .2rem rgba(51, 51, 51, 0.12);
+    padding: 1rem;
+}
+
+.blue-container {
+    background-color: var(--primary-blue-background-10);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.subtitle {
+    border-top: none;
+    border-bottom: none;
+    border-left: solid var(--primary-blue-background-10) .25rem!important;
+    border-right: none;
 }
