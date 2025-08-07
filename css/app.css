@@ -6,36 +6,36 @@
     --secondary-font-aptus: Merriweather;
 }
 
-body {
+.body-general {
     font-family: var(--secondary-font-aptus), sans-serif;
     font-size: 16px;
 }
 
-h1 {
+.h1-headline {
     font-family: var(--primary-font-aptus), sans-serif;
     font-size: 3rem;
     line-height: 4.5rem;
 }
 
-h2 {
+.h2-headline {
     font-family: var(--primary-font-aptus), sans-serif;
     font-size: 2.5rem;
     line-height: 4rem;
 }
 
-h3 {
+.h3-headline {
     font-family: var(--primary-font-aptus), sans-serif;
     font-size: 2.0625rem;
     line-height: 3.5rem;
 }
 
-h4 {
+.h4-headline {
     font-family: var(--primary-font-aptus), sans-serif;
     font-size: 1.75rem;
     line-height: 3rem;
 }
 
-h5 {
+.h5-subtitle {
     font-family: var(--primary-font-aptus), sans-serif;
     font-size: 1.25rem;
     line-height: 2rem;
@@ -46,8 +46,68 @@ h5 {
     line-height: 2rem;
 }
 
-p {
+.p-body {
     font-family: var(--secondary-font-aptus), sans-serif;
     font-size: 1rem;
     line-height: 2rem;
+}
+
+.btn-aptus {
+    border: none;
+    border-radius: 56px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-family: var(--primary-font-aptus), sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn-info-aptus {
+    color: #FFFFFF;
+    background-color: var(--primary-blue);
+}
+
+.btn-info-aptus:hover {
+    background-color: var(--primary-blue-active);
+}
+
+.btn-info-aptus:disabled {
+    background-color: var(--primary-blue-background-10);
+}
+
+.btn-success-aptus {
+    color: #000000;
+    background-color: var(--primary-green);
+}
+
+.btn-success-aptus:hover {
+    background-color: var(--primary-green-active);
+}
+
+.btn-success-aptus:disabled {
+    background-color: var(--primary-green-background-10);
+}
+
+.btn-danger-aptus {
+    color: #FFFFFF;
+    background-color: var(--accent-error)!important;
+}
+
+.btn-danger-aptus:hover {
+    background-color: var(--accent-error-active)!important;
+}
+
+.btn-danger-aptus:disabled {
+    background-color: var(--red-aptus-lighter);
+}
+
+.section-padding {
+    padding: 0.5rem;
+}
+
+.list-tooltip {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
