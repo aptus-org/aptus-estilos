@@ -131,3 +131,7 @@
     border-left: solid var(--primary-blue-background-10) .25rem;
     border-right: none;
 }
+
+.warning-icon-aptus {
+    color: var(--accent-warning);
+}

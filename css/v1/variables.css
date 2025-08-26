@@ -14,5 +14,9 @@
     --accent-error-active: #b40425;
     --accent-error-disabled: #f8dcdc;
 
+    --accent-warning: #f49e25;
+    --accent-warning-active: #c37d14;
+    --accent-warning-disabled: #f8f0d8;
+
     --gray-aptus: #e3e6e8;
 }
