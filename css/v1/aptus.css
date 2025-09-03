@@ -135,3 +135,18 @@
 .warning-icon-aptus {
     color: var(--accent-warning);
 }
+
+.chip-aptus {
+    border: none;
+    border-radius: 3.5rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-family: var(--primary-font-aptus), sans-serif;
+}
+
+.chip-aptus-gray {
+    background-color: var(--gray-aptus);
+    color: black;
+    width: max-content;
+
+}
