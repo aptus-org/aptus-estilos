@@ -66,45 +66,47 @@
     font-family: var(--primary-font-aptus), sans-serif;
     font-weight: 500;
     font-style: normal;
+    text-decoration: none;
 }
 
 .btn-info-aptus {
     color: #FFFFFF;
     background-color: var(--primary-blue);
-}
 
-.btn-info-aptus:hover {
-    background-color: var(--primary-blue-active);
-}
+    &:hover {
+        color: #FFFFFF;
+        background-color: var(--primary-blue-active);
+    }
 
-.btn-info-aptus:disabled {
-    background-color: var(--primary-blue-disabled);
+    &:disabled {
+        background-color: var(--primary-blue-disabled);
+    }
 }
 
 .btn-success-aptus {
     color: #000000;
     background-color: var(--primary-green);
-}
 
-.btn-success-aptus:hover {
-    background-color: var(--primary-green-active);
-}
-
-.btn-success-aptus:disabled {
-    background-color: var(--primary-green-disabled);
+    &:hover {
+        color: #000000;
+        background-color: var(--primary-green-active);
+    }
+    &:disabled {
+        background-color: var(--primary-green-disabled);
+    }
 }
 
 .btn-danger-aptus {
     color: #FFFFFF;
     background-color: var(--accent-error);
-}
 
-.btn-danger-aptus:hover {
-    background-color: var(--accent-error-active);
-}
-
-.btn-danger-aptus:disabled {
-    background-color: var(--accent-error-disabled);
+    &:hover {
+        color: #FFFFFF!important;
+        background-color: var(--accent-error-active);
+    }
+    &:disabled {
+        background-color: var(--accent-error-disabled);
+    }
 }
 
 .section-padding {
