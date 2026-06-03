@@ -67,6 +67,10 @@
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
+
+    &.btn-small {
+        font-size: .75rem;
+    }
 }
 
 .btn-info-aptus {
